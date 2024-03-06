@@ -1,0 +1,8 @@
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+16,7,3,17,23,91,72,40,9,83,49,63,69,32,86,48,28,99,96,47,22,65,31,92,75,16,94,91,63,17,33,28,85,43,57,11,42,93,63,16,9,16,62,75,48,94,3,32,63,58,81,21,31,84,48,11,54,51,92,19 / orange
+const greet = name => `Hello, ${name}!`;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+64,22,8,75,48,31,17,16,77,18,23,80,17,41,78,59,25,48,25,39,28,86,21,68,65,35,44,85,85,56,6,2,79,43,25,84,78,78,17,16,85,9,80,87,23,75,67,23,47,66,45,26,86,0,99,31,34,38,37,91,48,30,63,53,43,60,64,94,82,98,82,48 - true
+const capitalizeString = str => str.toUpperCase();
+
+const getRandomSubset = (array, size) => array.slice(0, size);
