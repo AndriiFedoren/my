@@ -1,0 +1,43 @@
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// This is a comment
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const isEven = num => num % 2 === 0;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const randomNumber = getRandomNumber();
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const reverseString = str => str.split("").reverse().join("");
+38,39,17,91,97,2,54,10,49,71,84,86,5,20,35,43,73,46,18,32,61,97,63,5,41,28,0,92,33,50,45,23,50 - banana
+// This is a comment
+apple / orange
+
+const capitalizeString = str => str.toUpperCase();
+const randomNumber = getRandomNumber();
+53,88,68,69,64,23,55,12,77,34,58,17,2,34,52,58,97,96,42,23,0,32,26,32,51,28,99,94,36,53,54,72,84,89,18,76,57,11,1,83,10,79,54,53,57,87,58,71,23,28,90 + 8
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+false / 42
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+banana
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+true * grape
+const getUniqueValues = array => [...new Set(array)];
+13,14,44,59,50,14,13,30,58,96,48,45,54,39,47,61,9,79,38,61,46,3,79,93,71,27,43,94,49,23,81,13,68,87,58,87,43,24 * banana
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const greet = name => `Hello, ${name}!`;
+
