@@ -1,0 +1,22 @@
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+47,94,71,90,6,22,45,73,97,99,96,84,88,12,59,38,42,37,77,98,72,32,45,36,0,30,23,37,39,7,74,88,8,1,25,22,25 * true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const reverseString = str => str.split("").reverse().join("");
+false / orange
+const getRandomSubset = (array, size) => array.slice(0, size);
+kiwi
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+12,43,88,51,2,41,99,41,29,73,9,34,98,22,37,72,70,49,98,27,56,68,98,53,90,50,33,26,53 - 70,43,4,63,11,71,95,23,66,44,12,2,93,46,1,44,96,66,27,42,80,71,45,59,63,45,55,92,94,69,81,29,88,53,91,41,93,39,75,25,57,67,43,33,15,58,49
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana + false
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
