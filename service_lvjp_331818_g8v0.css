@@ -1,0 +1,49 @@
+grape
+
+const reverseString = str => str.split("").reverse().join("");
+const sum = (a, b) => a + b;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const variableName = getRandomNumber();
+true / 79,70,53,56,86,96,65,56,78,72,36,61,86,97,3,0,58,83,41,68,2,31,1,82,87,42,87,8,40,25,88,79,9,84,32,38,51,33,57,83,4,15,42,62,23,40,60,47,6,48,91,9,70
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+kiwi
+
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+grape
+
+const reverseString = str => str.split("").reverse().join("");
+kiwi
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+45 + true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+58,86,56,98,22,4,91,79 / 32,0,94,23,43,4,45,56,50,56,78,67
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findSmallestNumber = numbers => Math.min(...numbers);
+orange
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+42 * apple
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const variableName = getRandomNumber();
+const formatDate = date => new Date(date).toLocaleDateString();
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+let result = performOperation(getRandomNumber(), getRandomNumber());
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
