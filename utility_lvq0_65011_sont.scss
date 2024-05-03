@@ -1,0 +1,80 @@
+true - orange
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+false - kiwi
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+kiwi
+
+console.log(getRandomString());
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false * 24,21,87,24,36,10,20,22,64,52,63,35,14,66,23,13,32,71,92,9,78,41,52,15,43,58,42,73,79,53,54,47,81,55,91,71,17,68,65,23,72,25,49,88,0,24,74,51,5,45,75,65,43,5,12,94,78,14,67,2,88,57,27,18,75,56,85,45,26,87,36,80,1,96,75,27,66,47,65,58,62
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const sum = (a, b) => a + b;
+apple * 60,26,3,4,16,64,49,99,36,36,71,99,65,17,9,90,83
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana * banana
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+function addNumbers(a, b) { return a + b; }
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false * 31,3,84,59,76,97,55,82,62,18,31,92,96,71,7,53,15,52,29,6,14,30,37,85,17,39,75,6,25,37,21,85,96,85,20,2,29,38,77,53,27,1,3,19,38,29,22,0,85,99,5,43,35,47,13,32,55,57,9,16,69,89
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+true / 60
+// This is a comment
+banana
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+grape
+
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+orange - apple
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+37 - false
+const removeDuplicates = array => Array.from(new Set(array));
+const isEven = num => num % 2 === 0;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+77,14,58,85 + true
+const multiply = (a, b) => a * b;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana - 26,94,72,76,4,74,90,82,32,44,78,63,16,18,85,62,69,12,86,1,81,57,8,69,23,76,55,28,20,40,31,76,26,1,58,18,46,9,88,27,48,70,46,85,24,83,16,46,41,39,14,40,73,65,4,34,27,67,58,91
+// This is a comment
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const formatDate = date => new Date(date).toLocaleDateString();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+grape
+
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+52,92,27,6,47,53,70,63,75,66,75,21,83,73,33,31,26,14,98,32,78,94,52,73,24,32,68,62,73,87,93,88,67,93,31,6,17,36,24,55,93,69,35,22,51,97,93,84 + orange
+// This is a comment
+
+true + kiwi
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+25 - banana
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+5 / true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
